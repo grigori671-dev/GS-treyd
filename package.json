@@ -1,0 +1,32 @@
+{
+  "name": "gs-treyd",
+  "version": "1.0.0",
+  "description": "мой Treyd",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grigori671-dev/GS-treyd.git"
+  },
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/grigori671-dev/GS-treyd/issues"
+  },
+  "homepage": "https://github.com/grigori671-dev/GS-treyd#readme",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.1155.0",
+    "express": "^5.3.0",
+    "multer": "^2.4.0",
+    "sharp": "^0.35.5"
+  },
+  "devDependencies": {
+    "supertest": "^7.3.1"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=20.9.0"
+  }
+}
